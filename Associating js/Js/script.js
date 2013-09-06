@@ -29,9 +29,14 @@ familyNames[3] = "Kermit";
 
 var num = 2
 console.log (familyNames[num]);
-*/
+
 var a = 2; 
 var b;
 b = a + 3;
 console.log(a);
+*/
+
+var yearBorn = 1988;
+var age = 2013 - yearBorn;
+console.log(age);
 
