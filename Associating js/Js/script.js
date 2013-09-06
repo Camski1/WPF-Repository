@@ -20,7 +20,7 @@ var isStudent = false;
 var firstName = "Cameron";
 
 var phrace ='I don\'t know \n You will have to speak with the professor ';
-*/
+
 
 var familyNames = [ "Cameron", "Kristen", "Brady"];
 
@@ -29,4 +29,9 @@ familyNames[3] = "Kermit";
 
 var num = 2
 console.log (familyNames[num]);
+*/
+var a = 2; 
+var b;
+b = a + 3;
+console.log(a);
 
