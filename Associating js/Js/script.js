@@ -44,7 +44,7 @@ console.log(area);
 
 var remainder = 32 % 2;
 console.log(remainder);
-*/
+
 
 var quiz1 = 90;
 var quiz2 = 87;
@@ -59,6 +59,10 @@ var length =7;
 var width = 6;
 var perimeter =length*2 + width*2;
 console.log(perimeter);
+*/
+var orangeBins = [234, 567, 883];
+var total = orangeBins[0] + orangeBins[1] + orangeBins[2];
+console.log (total);
 
 
 
