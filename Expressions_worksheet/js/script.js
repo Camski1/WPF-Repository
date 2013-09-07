@@ -28,11 +28,20 @@ var slicesPP= pizzaSlices * pizzasOrdered / peopleParty;
 var sparkyPizza=  totalSlices % peopleParty ; //remander of pizza 
 //the amount of pizza sparky eats print out
 console.log("Sparky got",sparkyPizza,"slices of pizza.");
-*/
+
 //Average shopping bill
 var billsOver5Weeks= [80.50, 79.25, 50.13, 78.12, 92.75]; //each weeks shoping bill
 var total= billsOver5Weeks[0]+ billsOver5Weeks[1]+ billsOver5Weeks[2]+ billsOver5Weeks[3]+ billsOver5Weeks[4]; //total of the bills over five weeks
 var averageCostPerWeek= total/5; //average of the bills over five weeks
  //printout of total bills over 5 weeks, and average amount spent per week
 console.log("You have spent a total of $",total," on groceries over 5 weeks. That is an average of $",averageCostPerWeek," per week");
-
+*/
+//Discounts
+var originalPrice= 100;
+var percentOff= .20;
+var discountPrice= (originalPrice - percentOff*originalPrice ) ;
+var itemName= "Hanna Montana tatoo";
+var salesTax= .06;
+var withTaxPrice= discountPrice + salesTax*discountPrice;
+//
+console.log("Your",itemName,"was originally $",originalPrice,"but after a",percentOff*100,"% discount, it is now $",discountPrice,"without tax, and $",withTaxPrice,"with tax");
