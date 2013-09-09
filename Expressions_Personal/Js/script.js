@@ -13,4 +13,6 @@ var milesPerWeekHI = prompt("How many miles do you drive per week on the highway
 var avrHIMpg = prompt("What is your average MPG on the highway/interstate?");
 var milesPerWeekCity = prompt("How many would you say you drive in the City?");
 var avrCityMpg = prompt("What is your average MPG in the City?");
+var avrFuelPrice = prompt("On average, how much do you spend on gas per gallon?");
+
 
