@@ -9,7 +9,7 @@
 
 
 alert("The information you add will calculate your annual fuil cost!"); //This alert is for informing the user of the information needed
-var milesPerWeekHI = prompt("How many miles do you drive per week on the highway/interstate?");
+var milesPerWeekHI = prompt("How many miles do you drive per week on the highway/interstate?"); //This var is for the Mile driven per week. The prompt is asking the user for the information.
 var avrHIMpg = prompt("What is your average MPG on the highway/interstate?");
 var milesPerWeekCity = prompt("How many would you say you drive in the City?");
 var avrCityMpg = prompt("What is your average MPG in the City?");
