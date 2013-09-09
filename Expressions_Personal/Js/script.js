@@ -8,7 +8,7 @@
 //Annual fuel cost calculator
 
 
-alert("The information you add will calculate your annual fuil cost!");
+alert("The information you add will calculate your annual fuil cost!"); //This alert is for informing the user of the information needed
 var milesPerWeekHI = prompt("How many miles do you drive per week on the highway/interstate?");
 var avrHIMpg = prompt("What is your average MPG on the highway/interstate?");
 var milesPerWeekCity = prompt("How many would you say you drive in the City?");
