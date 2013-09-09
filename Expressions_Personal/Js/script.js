@@ -18,6 +18,7 @@ var hIFuelPrice = milesPerWeekHI / avrHIMpg * avrFuelPrice;
 var cityFuelPrice = milesPerWeekCity / avrCityMpg * avrFuelPrice;
 var totalFuelCost = hIFuelPrice + cityFuelPrice;
 var annualFuelCost = totalFuelCost * 52;
+alert("Your weekly fuel cost is $" +totalFuelCost+ ", and your annual fuel cost is $" +annualFuelCost);
 
 
 
