@@ -5,8 +5,16 @@
 
 
 //Project time estimation calculator 
+
 alert("The information you give will give you an estimate of how long a project takes you to complete. This will be helpful in estimating the time needed for future projects");
 var linesOfCode = prompt("How many lines of code did you write?");
 var timeSpentOnCode = prompt("How long did you spend writing your code?");
 var timeSpentInRes = prompt("How much time did you spend on research?");
 var timeSpentOnBreaks = prompt("How much time did you spend taking breaks? I wont tell your boss.");
+
+var timespentArray= [timeSpentOnBreaks, timeSpentInRes, timeSpentOnCode,];
+var totalTimeSpen= timespentArray[0] * 1 + timespentArray[1] * 1 + timespentArray[2] * 1;
+
+
+console.log(totalTimeSpen);
+
