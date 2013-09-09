@@ -9,3 +9,4 @@ alert("The information you give will give you an estimate of how long a project 
 var linesOfCode = prompt("How many lines of code did you write?");
 var timeSpentOnCode = prompt("How long did you spend writing your code?");
 var timeSpentInRes = prompt("How much time did you spend on research?");
+var timeSpentOnBreaks = prompt("How much time did you spend taking breaks? I wont tell your boss.");
