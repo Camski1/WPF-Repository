@@ -17,7 +17,7 @@ var avrFuelPrice = prompt("On average, how much do you spend on gas per gallon?"
 var hIFuelPrice = milesPerWeekHI / avrHIMpg * avrFuelPrice; //This var is how much the user spend per week in gas on the highway. I did this by dividing milesPerWeekHI by avrHIMpg and multiplying that by avrFuelPrice
 var cityFuelPrice = milesPerWeekCity / avrCityMpg * avrFuelPrice; //This var is how much the user spend per week in gas in the city. I did this by dividing milesPerWeekCity by avrCityMpg and multiplying that by avrFuelPrice
 var totalFuelCost = hIFuelPrice + cityFuelPrice; //This var is for total fuel cost per week. I did this by adding hIFuelPrice and cityFuelPrice
-var annualFuelCost = totalFuelCost * 52;
+var annualFuelCost = totalFuelCost * 52; //This var is for annual fuel cost. I did this by multiplying totalFuelCost by the 52 weeks in a year.
 alert("Your weekly fuel cost is $" +totalFuelCost+ ", and your annual fuel cost is $" +annualFuelCost);
 
 
