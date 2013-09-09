@@ -15,7 +15,7 @@ var milesPerWeekCity = prompt("How many would you say you drive in the City?"); 
 var avrCityMpg = prompt("What is your average MPG in the City?"); //This var is for average MPG in the city. The prompt is asking the user for the information.
 var avrFuelPrice = prompt("On average, how much do you spend on gas per gallon?"); //This var is for average fuel price per gallon. The prompt is asking the user for the information.
 var hIFuelPrice = milesPerWeekHI / avrHIMpg * avrFuelPrice; //This var is how much the user spend per week in gas on the highway. I did this by dividing milesPerWeekHI by avrHIMpg and multiplying that by avrFuelPrice
-var cityFuelPrice = milesPerWeekCity / avrCityMpg * avrFuelPrice;
+var cityFuelPrice = milesPerWeekCity / avrCityMpg * avrFuelPrice; //This var is how much the user spend per week in gas in the city. I did this by dividing milesPerWeekCity by avrCityMpg and multiplying that by avrFuelPrice
 var totalFuelCost = hIFuelPrice + cityFuelPrice;
 var annualFuelCost = totalFuelCost * 52;
 alert("Your weekly fuel cost is $" +totalFuelCost+ ", and your annual fuel cost is $" +annualFuelCost);
