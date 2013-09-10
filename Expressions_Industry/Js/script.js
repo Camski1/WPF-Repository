@@ -7,7 +7,7 @@
 //Project time estimation calculator 
 
 alert("The information you give will give you an estimate of how long a project takes you to complete. This will be helpful in estimating the time needed for future projects"); //This is an alert letting the user know what the info will be for.
-var linesOfCode = prompt("How many lines of code did you write?");
+var linesOfCode = prompt("How many lines of code did you write?"); //This var is for storing the numer of lines of code. the prompt is asking the user for the information. 
 var timeSpentOnCode = prompt("How long did you spend writing your code?");
 var timeSpentInRes = prompt("How much time did you spend on research?");
 var timeSpentOnBreaks = prompt("How much time did you spend taking breaks? I wont tell your boss.");
