@@ -13,4 +13,5 @@ var favAuthor= prompt("Who is your favorite author?");
 var storyLineNumOne= yearBorn / favNumber;
 var storyLineNumTwo= yearBorn - favNumber - 40;
 
-alert("Okay, that is all I need get ready for story time.");
+alert("Okay, that is all I need. Get ready for story time.");
+alert("The evil War Lord "+userName+ " was the master of the entire world.");
