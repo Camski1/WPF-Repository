@@ -15,7 +15,7 @@ var timeSpentOnBreaks = prompt("How much time did you spend taking breaks? I won
 var timespentArray= [timeSpentOnBreaks, timeSpentInRes, timeSpentOnCode,]; //This array is for storing the three timeSpent var's
 var totalTimeSpen= Number(timespentArray[0]) + Number(timespentArray[1]) + Number(timespentArray[2]); //This var is storing the total time spent. The array was added by casting the strings as numbers
 
-var timePerLine= totalTimeSpen / linesOfCode;
+var timePerLine= totalTimeSpen / linesOfCode; //This var is holding time spent per line of code. This number comes frome deviding totalTimeSpen by linesOfCode;
 
 alert("Your project took " + totalTimeSpen +"min to complete, and your time per line of code was " +timePerLine+"min." )
 
