@@ -10,7 +10,7 @@ alert("The information you give will give you an estimate of how long a project 
 var linesOfCode = prompt("How many lines of code did you write?"); //This var is for storing the numer of lines of code. the prompt is asking the user for the information. 
 var timeSpentOnCode = prompt("How long did you spend writing your code?"); //This var is for the time spent writting the code. The prompt is asking the user for the information.
 var timeSpentInRes = prompt("How much time did you spend on research?"); //This var is for time spent on research. The prompt is asking the user for the info. 
-var timeSpentOnBreaks = prompt("How much time did you spend taking breaks? I wont tell your boss.");
+var timeSpentOnBreaks = prompt("How much time did you spend taking breaks? I wont tell your boss."); // This var is for tome spent taking breaks. The prompt is asking the user for the info
 
 var timespentArray= [timeSpentOnBreaks, timeSpentInRes, timeSpentOnCode,];
 var totalTimeSpen= Number(timespentArray[0]) + Number(timespentArray[1]) + Number(timespentArray[2]);
