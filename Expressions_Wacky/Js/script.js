@@ -18,4 +18,5 @@ alert("The evil War Lord "+userName+ " was the master of the entire world.");
 alert("Since the year " +yearBorn+" " +userName+ " has destroyed " +storyLineNumTwo+ " towns and cities.");
 alert("But all that was about to change.");
 alert("The brave " +favAuthor+ " was secretly forming a plan to take power for the terrible " +userName);
+alert("Our hero " +favAuthor+ " has found " +userName+ "‘s weakness.");
 
