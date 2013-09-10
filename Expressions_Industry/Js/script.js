@@ -13,7 +13,7 @@ var timeSpentInRes = prompt("How much time did you spend on research?"); //This 
 var timeSpentOnBreaks = prompt("How much time did you spend taking breaks? I wont tell your boss."); // This var is for tome spent taking breaks. The prompt is asking the user for the info
 
 var timespentArray= [timeSpentOnBreaks, timeSpentInRes, timeSpentOnCode,]; //This array is for storing the three timeSpent var's
-var totalTimeSpen= Number(timespentArray[0]) + Number(timespentArray[1]) + Number(timespentArray[2]);
+var totalTimeSpen= Number(timespentArray[0]) + Number(timespentArray[1]) + Number(timespentArray[2]); //This var is storing the total time spent. The array was added by casting the strings as numbers
 
 var timePerLine= totalTimeSpen / linesOfCode;
 
