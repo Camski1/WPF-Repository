@@ -19,5 +19,6 @@ alert("Since the year " +yearBorn+" " +userName+ " has destroyed " +storyLineNum
 alert("But all that was about to change.");
 alert("The brave " +favAuthor+ " was secretly forming a plan to take power for the terrible " +userName);
 alert("Our hero " +favAuthor+ " has found " +userName+ "‘s weakness.");
-alert("You see " +favAuthor+ " new that " +userName+ " loved ham pizza and would eat " +storyLineNumOne+ " of them a week.");
+alert("You see " +favAuthor+ " new that " +userName+ " loved " +pizzaTopping+ " pizza and would eat " +storyLineNumOne+ " of them a week.");
+alert("Late one night as " +userName+ " was playing xbox he could out for his servant to bring him his next " +pizzaTopping);
 
