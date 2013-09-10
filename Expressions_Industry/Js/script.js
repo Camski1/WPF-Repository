@@ -17,5 +17,5 @@ var totalTimeSpen= Number(timespentArray[0]) + Number(timespentArray[1]) + Numbe
 
 var timePerLine= totalTimeSpen / linesOfCode;
 
-
+alert("Your project took " + totalTimeSpen +"min to complete, and your time per line of code was " +timePerLine+"min." )
 
