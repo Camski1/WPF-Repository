@@ -12,3 +12,5 @@ var favNumber= prompt("What is your favorite number?");
 var favAuthor= prompt("Who is your favorite author?");
 var storyLineNumOne= yearBorn / favNumber;
 var storyLineNumTwo= yearBorn - favNumber - 40;
+
+alert("Okay, that is all I need get ready for story time.");
