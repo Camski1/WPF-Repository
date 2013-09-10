@@ -6,7 +6,7 @@
 
 //Project time estimation calculator 
 
-alert("The information you give will give you an estimate of how long a project takes you to complete. This will be helpful in estimating the time needed for future projects");
+alert("The information you give will give you an estimate of how long a project takes you to complete. This will be helpful in estimating the time needed for future projects"); //This is an alert letting the user know what the info will be for.
 var linesOfCode = prompt("How many lines of code did you write?");
 var timeSpentOnCode = prompt("How long did you spend writing your code?");
 var timeSpentInRes = prompt("How much time did you spend on research?");
