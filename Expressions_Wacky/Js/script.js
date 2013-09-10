@@ -4,14 +4,14 @@
 // Expressions_Wacky
 
 //Really fun story time. 
-alert("The information you give will write an amazing story. Have fun!");
-var userName= prompt("What is your name?");
-var yearBorn= prompt("What is your birthyear? Example 1988");
-var pizzaTopping= prompt("What is your favorite pizza topping?");
-var favNumber= prompt("What is your favorite number?");
-var favAuthor= prompt("Who is your favorite author?");
-var storyLineNumOne= yearBorn / favNumber;
-var storyLineNumTwo= yearBorn - favNumber - 40;
+alert("The information you give will write an amazing story. Have fun!"); //alert leting the user know what the info will be for.
+var userName= prompt("What is your name?");//This var is for the user's name. The prompt is getting the info from the user.
+var yearBorn= prompt("What is your birthyear? Example 1988");//This var is for the users birthyear. the prompt is asking the user for the info.
+var pizzaTopping= prompt("What is your favorite pizza topping?");//This var is for the users favorite pizza topping. the prompt is asking the user for the info.
+var favNumber= prompt("What is your favorite number?");//This var is for the users favorite number. the prompt is asking the user for the info.
+var favAuthor= prompt("Who is your favorite author?");//This var is for the users favorite author. The prompt is asking the user for the info.
+var storyLineNumOne= yearBorn / favNumber;//This var is holding a random number that was reated by deviding the users birthyear by the favorite number.
+var storyLineNumTwo= yearBorn - favNumber - 40;// This var is holding a random number. the number was created by doing yearBorn - favNumber - 40.
 
 alert("Okay, that is all I need. Get ready for story time.");
 alert("The evil War Lord "+userName+ " was the master of the entire world.");
