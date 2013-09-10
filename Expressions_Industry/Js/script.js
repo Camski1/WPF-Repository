@@ -13,8 +13,7 @@ var timeSpentInRes = prompt("How much time did you spend on research?");
 var timeSpentOnBreaks = prompt("How much time did you spend taking breaks? I wont tell your boss.");
 
 var timespentArray= [timeSpentOnBreaks, timeSpentInRes, timeSpentOnCode,];
-var totalTimeSpen= timespentArray[0] * 1 + timespentArray[1] * 1 + timespentArray[2] * 1;
+var totalTimeSpen= Number(timespentArray[0]) + Number(timespentArray[1]) + Number(timespentArray[2]);
 
 
 console.log(totalTimeSpen);
-
