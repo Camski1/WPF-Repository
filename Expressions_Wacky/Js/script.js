@@ -16,4 +16,5 @@ var storyLineNumTwo= yearBorn - favNumber - 40;
 alert("Okay, that is all I need. Get ready for story time.");
 alert("The evil War Lord "+userName+ " was the master of the entire world.");
 alert("Since the year " +yearBorn+" " +userName+ " has destroyed " +storyLineNumTwo+ " towns and cities.");
+alert("But all that was about to change.");
 
