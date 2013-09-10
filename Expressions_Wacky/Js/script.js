@@ -9,4 +9,4 @@ var userName= prompt("What is your name?");
 var yearBorn= prompt("What is your birth-year?");
 var pizzaTopping= prompt("What is your favorite pizza topping?");
 var favNumber= prompt("What is your favorite number?");
-
+var favAuthor= prompt("Who is your favorite author?");
