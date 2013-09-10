@@ -15,5 +15,7 @@ var timeSpentOnBreaks = prompt("How much time did you spend taking breaks? I won
 var timespentArray= [timeSpentOnBreaks, timeSpentInRes, timeSpentOnCode,];
 var totalTimeSpen= Number(timespentArray[0]) + Number(timespentArray[1]) + Number(timespentArray[2]);
 
+var timePerLine= totalTimeSpen / linesOfCode;
 
-console.log(totalTimeSpen);
+
+
