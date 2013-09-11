@@ -1,5 +1,5 @@
 //Cameron Kozinski
-
+/*
 var kidHeight = 47;
 var minHeight = 48;
 var wParentHeight= 45;
@@ -14,3 +14,13 @@ if(kidHeight > minHeight){
 else{
 	console.log("Sorry kid, you've got some growing to do first!");
 }
+*/
+var buget = 100;
+var iPhonePrice = 199.99;
+var wonLottery = true;
+ if (buget > iPhonePrice || wonLottery){
+ 	console.log("You can get the phone!");
+
+ }else{
+ 	console.log("No phone for you!");
+ }
