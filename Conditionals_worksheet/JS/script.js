@@ -16,7 +16,7 @@ if(fahrOrCels === "C"){
 }else{
 	alert("The temperature in Celsius is " +fahrenheitConverter+ " degrees!");
 }
-*/
+
 
 //Grade Letter Calculator
 
@@ -46,3 +46,35 @@ if(gradePercent >= gradeAPluss){ //if the user grade is greater than or equal to
 }else{//if the user grade is equal to anything else. The alert will print out F
 	alert("You have a " +gradePercent+ "%, which means you have earned a(n) F in the class!");
 }
+*/
+
+//Tire pressure I
+
+alert("The information you give will let you know if you need to have your tires checked.");//This is an alert telling the user what the info is for.
+var fruntLeft = prompt("What is the psi of your frunt left tire?");//This prompt is asking the user for the psi of the frunt left tire, and the var is storing the info.
+var fruntRight = prompt("What is the psi of your frunt right tire?");//This prompt is asking the user for the psi of the frunt right tire, and the var is storing the info.
+var backLeft = prompt("What is the psi of your back left tire?");//This prompt is asking the user for the psi of the back left tire, and the var is storing the info.
+var backRight = prompt("What is the psi of you back right tire?");//This prompt is asking the user for the psi of the back right tire, and the var is storing the info.
+
+var carTires =[fruntLeft, fruntRight, backLeft, backRight];// This var is holding an array that has all the tire info taken from the user
+
+if(carTires[0] === carTires[1] && carTires[2] === carTires[3]){//As long as the tires in the front of the car match and the tires in the back of the car match the user will see you pass
+	alert("The tires pass spec!");
+}else{
+	alert("Get you tires checked out!");//if the above coment isnt true the user will not pass
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
