@@ -21,6 +21,8 @@ if(Number(userAnswerOne) === trueAnswer){
 			var trueAnswerThreeIf = 10;
 			if(Number(userAnswerThreeIf) ===trueAnswerThreeIf){
 				alert("High Five you got all three!" )
+			}else{
+				alert("Sorry missed the last one. The answer was " +trueAnswerThreeIf+ ", but you got two out of three!");
 			}
 		}else{
 			alert("It's cool lets try again.");
