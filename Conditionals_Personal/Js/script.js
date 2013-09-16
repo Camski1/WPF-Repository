@@ -3,3 +3,5 @@
 //Conditionals_Personal
 
 //Math Quiz 
+
+alert("This short quiz will help you with simple math skills!");
