@@ -40,5 +40,12 @@ if(Number(userAnswerOne) === trueAnswer){
 
 }else{
 	alert("Sorry, the correct answer is " +trueAnswer+ ". Lets try again.");
-	
+		var userAnswerTwoIf = prompt("Find The Answer. \n1/2 + 3/4 = ?");
+		var trueAnswerTwoIf = "1 1/4";
+		if(){
+			
+
+		}else{
+
+		}
 }
