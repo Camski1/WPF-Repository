@@ -25,7 +25,16 @@ if(Number(userAnswerOne) === trueAnswer){
 				alert("Sorry missed the last one. The answer was " +trueAnswerThreeIf+ ", but you got two out of three!");
 			}
 		}else{
-			alert("It's cool lets try again.");
+			alert("Nope, the correct answer was 1 1/2");
+			var userAnswerThreeIf = prompt("If X * 10 = 100\nwhat is 'X'?");
+			var trueAnswerThreeIf = 10;
+				if(Number(userAnswerThreeIf) ===trueAnswerThreeIf){
+				alert("Not bad, you got to of three.")
+				}else{
+				alert("Sorry missed the last one. The answer was " +trueAnswerThreeIf+ ", you got one out of three.");
+			
+
+			}
 
 		}
 
