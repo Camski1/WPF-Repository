@@ -12,7 +12,7 @@ var nonfiction = "Nonfiction";
 if(userBooks === fiction){
 	alert("Very cool I LOVE Fiction!");
 		var haveYouReadGalaxy = prompt("Have you read, The Hitchhiker's Guide to the Galaxy?\nYes or No");
-		if(haveYouReadGalaxy === "Yes"){
+		if(haveYouReadGalaxy === "Yes" && userBooks === fiction){
 			alert("That is so cool you seem super awesome.");
 
 		}else{
@@ -21,6 +21,9 @@ if(userBooks === fiction){
 		}
 
 }else if(userBooks === nonfiction){
+	alert("Very cool I LOVE Nonfiction!");
+		var haveYouReadMeTalk = prompt("Have you read, Me Talk Pretty One Day?\nYes or No ");
+		
 
 }else{
 
