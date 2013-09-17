@@ -60,7 +60,7 @@ if(Number(userAnswerOne) === trueAnswer){
 			var userAnswerThreeIf = prompt("If X * 10 = 100\nwhat is 'X'?");
 			var trueAnswerThreeIf = 10;
 			if(userAnswerThreeIf === trueAnswerThreeIf){
-				
+				alert("That's correct, you finished strong with one out of three.")
 			}
 
 		}
