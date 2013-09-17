@@ -36,3 +36,5 @@ if(userBooks === fiction){
 	alert("We are so alike you and I.");
 
 }
+
+alert("You seem really cool and I feel so happy talking with you.");
