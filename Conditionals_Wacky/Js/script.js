@@ -5,7 +5,7 @@
 //Things get uncomfortable with AI
 
 alert("The information you add will paint a picture of you and your life.");
-var userBooks = prompt("Out of these styles of writting what is you favorite\nFiction, Nonfiction or I dont read?");
+var userBooks = prompt("Out of these styles of writting what is you favorite\nFiction, Nonfiction or I don't read?");
 var fiction = "Fiction";
 var nonfiction = "Nonfiction";
 
@@ -32,5 +32,7 @@ if(userBooks === fiction){
 		}
 
 }else{
+	alert("I hate reading, it sucks being a computer. I have to read all the time.");
+	alert("We are so alike you and I.");
 
 }
