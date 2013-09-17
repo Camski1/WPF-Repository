@@ -50,12 +50,15 @@ if(Number(userAnswerOne) === trueAnswer){
 				alert("Not bad, you got two of three.");
 
 			}else{
-				alert("Sorry, the answer was " +trueAnswerThreeIf+ ", you got one out of three.")
+				alert("Sorry, the answer was " +trueAnswerThreeIf+ ", you got one out of three.");
 
 			}
 
 
 		}else{
+			alert("Nope, the answer was 1 1/4. Lets try one more.");
+			var userAnswerThreeIf = prompt("If X * 10 = 100\nwhat is 'X'?");
+			var trueAnswerThreeIf = 10;
 
 		}
 }
