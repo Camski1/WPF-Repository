@@ -59,6 +59,9 @@ if(Number(userAnswerOne) === trueAnswer){
 			alert("Nope, the answer was 1 1/4. Lets try one more.");
 			var userAnswerThreeIf = prompt("If X * 10 = 100\nwhat is 'X'?");
 			var trueAnswerThreeIf = 10;
+			if(userAnswerThreeIf === trueAnswerThreeIf){
+				
+			}
 
 		}
 }
