@@ -38,3 +38,7 @@ if(userBooks === fiction){
 }
 
 alert("You seem really cool and I feel so happy talking with you.");
+var userTalkingWithAI = prompt("Have you enjoyed talking with me?\nYes or No");
+
+var aI = (userTalkingWithAI === "Yes") ? "I really like you. Follow the white rabbit." : "I LOVE YOU, AND I WILL WAIT FOR YOU!";
+alert(aI);
