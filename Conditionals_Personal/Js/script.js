@@ -21,15 +21,15 @@ if(Number(userAnswerOne) === trueAnswer){//This if is for when the user get the 
 			var trueAnswerThreeIf = 10;//This var is holding the true answer to the last uestion.
 			if(Number(userAnswerThreeIf) ===trueAnswerThreeIf){//This if is finding if the user got the question right or wrong. Casting was used to convert the user's string into a number.
 				alert("High Five you got all three!");//This alert is telling the user they got every question right.
-			}else{
-				alert("Sorry missed the last one. The answer was " +trueAnswerThreeIf+ ", but you got two out of three!");
+			}else{//This else is if the user get the first to correct but misses the last one.
+				alert("Sorry missed the last one. The answer was " +trueAnswerThreeIf+ ", but you got two out of three!");//This alert is telling the user what the correct answer was to the third question, and the total score. 
 			}
-		}else{
-			alert("Nope, the correct answer was 1 1/4");
-			var userAnswerThreeIf = prompt("If X * 10 = 100\nwhat is 'X'?");
-			var trueAnswerThreeIf = 10;
-				if(Number(userAnswerThreeIf) ===trueAnswerThreeIf){
-				alert("Not bad, you got two of three.");
+		}else{//this else if for if the user get the first question right but misses the second answer. 
+			alert("Nope, the correct answer was 1 1/4");//This alert is for telling the user what the answer was to the second question.
+			var userAnswerThreeIf = prompt("If X * 10 = 100\nwhat is 'X'?");//This var will hold the user's answer to the last question. The prompt will get the info from the user.
+			var trueAnswerThreeIf = 10;//This var is holding the true answer to the last uestion.
+				if(Number(userAnswerThreeIf) ===trueAnswerThreeIf){//This if is finding if the user got the question right or wrong. Casting was used to convert the user's string into a number.
+				alert("Not bad, you got two of three!");//This alert tells the user that they got the last question right and what the score was. 
 				}else{
 				alert("Sorry missed the last one. The answer was " +trueAnswerThreeIf+ ", you got one out of three.");
 			
