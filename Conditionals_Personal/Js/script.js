@@ -57,12 +57,12 @@ if(Number(userAnswerOne) === trueAnswer){//This if is for when the user get the 
 
 		}else{//This else is for if the user gets the first two wrong.
 			alert("Nope, the answer was 1 1/4. Lets try one more.");//This alert is for telling the user what the answer was to the second question.
-			var userAnswerThreeIf = prompt("If X * 10 = 100\nwhat is 'X'?");
-			var trueAnswerThreeIf = 10;
-			if(Number(userAnswerThreeIf) === trueAnswerThreeIf){
-				alert("That's correct, you finished strong with one out of three.");
-			}else{
-				alert("Nope, the answer was " +trueAnswerThreeIf+ ". You missed every question.");
+			var userAnswerThreeIf = prompt("If X * 10 = 100\nwhat is 'X'?");//This var will hold the user's answer to the last question. The prompt will get the info from the user.
+			var trueAnswerThreeIf = 10;//This var is holding the true answer to the last uestion.
+			if(Number(userAnswerThreeIf) === trueAnswerThreeIf){//This if is finding if the user got the question right or wrong. Casting was used to convert the user's string into a number.
+				alert("That's correct, you finished strong with one out of three.");//This alert tells the user that they got the last question right and what the score was. 
+			}else{//this else is for if the user gets the last question wrong.
+				alert("Nope, the answer was " +trueAnswerThreeIf+ ". You missed every question.");//This alert is telling the user the answer to the third question, and gives the user the score. 
 			}
 
 		}
