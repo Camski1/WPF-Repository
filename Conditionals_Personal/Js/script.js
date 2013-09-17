@@ -50,6 +50,7 @@ if(Number(userAnswerOne) === trueAnswer){
 				alert("Not bad, you got two of three.");
 
 			}else{
+				alert("Sorry, the answer was " +trueAnswerThreeIf+ ", you got one out of three.")
 
 			}
 
