@@ -30,33 +30,33 @@ if(Number(userAnswerOne) === trueAnswer){//This if is for when the user get the 
 			var trueAnswerThreeIf = 10;//This var is holding the true answer to the last uestion.
 				if(Number(userAnswerThreeIf) ===trueAnswerThreeIf){//This if is finding if the user got the question right or wrong. Casting was used to convert the user's string into a number.
 				alert("Not bad, you got two of three!");//This alert tells the user that they got the last question right and what the score was. 
-				}else{
-				alert("Sorry missed the last one. The answer was " +trueAnswerThreeIf+ ", you got one out of three.");
+				}else{//This else is for if the user gets the last two questions wrong.
+				alert("Sorry missed the last one. The answer was " +trueAnswerThreeIf+ ", you got one out of three.");//This alert is telling the user the answer to the third question, and gives the user the score. 
 			
 
 			}
 
 		}
 
-}else{
-	alert("Sorry, the correct answer is " +trueAnswer+ ". Lets try again.");
-		var userAnswerTwoIf = prompt("Find The Answer. \n1/2 + 3/4 = ?");
-		var trueAnswerTwoIf = "1 1/4";
-		if(userAnswerTwoIf === trueAnswerTwoIf){
-			alert("Well done!");
-			var userAnswerThreeIf = prompt("If X * 10 = 100\nwhat is 'X'?");
-			var trueAnswerThreeIf = 10;
-			if(Number(userAnswerThreeIf) === trueAnswerThreeIf){
-				alert("Not bad, you got two of three.");
+}else{//This else is for if the user gets the first question wrong. 
+	alert("Sorry, the correct answer is " +trueAnswer+ ". Lets try again.");//This alert is telling the user the answer to the first question.
+		var userAnswerTwoIf = prompt("Find The Answer. \n1/2 + 3/4 = ?");//This var will hold the user answer for the second question. The prompt will get the info from the user. 
+		var trueAnswerTwoIf = "1 1/4";//This var is holding the true answer to the second questio. I set it up as a string to fit the form that the user will answer with.
+		if(userAnswerTwoIf === trueAnswerTwoIf){//This if is for finding out if the user got the question right.
+			alert("Well done!");//This alert tells the user they got the second question right.
+			var userAnswerThreeIf = prompt("If X * 10 = 100\nwhat is 'X'?");//This var will hold the user's answer to the last question. The prompt will get the info from the user.
+			var trueAnswerThreeIf = 10;//This var is holding the true answer to the last uestion.
+			if(Number(userAnswerThreeIf) === trueAnswerThreeIf){//This if is finding if the user got the question right or wrong. Casting was used to convert the user's string into a number.
+				alert("Not bad, you got two of three.");//This alert tells the user that they got the last question right and what the score was. 
 
-			}else{
-				alert("Sorry, the answer was " +trueAnswerThreeIf+ ", you got one out of three.");
+			}else{//this else is for if the user gets the last question wrong.
+				alert("Sorry, the answer was " +trueAnswerThreeIf+ ", you got one out of three.");//This alert is telling the user the answer to the third question, and gives the user the score. 
 
 			}
 
 
-		}else{
-			alert("Nope, the answer was 1 1/4. Lets try one more.");
+		}else{//This else is for if the user gets the first two wrong.
+			alert("Nope, the answer was 1 1/4. Lets try one more.");//This alert is for telling the user what the answer was to the second question.
 			var userAnswerThreeIf = prompt("If X * 10 = 100\nwhat is 'X'?");
 			var trueAnswerThreeIf = 10;
 			if(Number(userAnswerThreeIf) === trueAnswerThreeIf){
