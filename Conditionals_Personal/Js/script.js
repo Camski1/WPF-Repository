@@ -25,7 +25,7 @@ if(Number(userAnswerOne) === trueAnswer){
 				alert("Sorry missed the last one. The answer was " +trueAnswerThreeIf+ ", but you got two out of three!");
 			}
 		}else{
-			alert("Nope, the correct answer was 1 1/2");
+			alert("Nope, the correct answer was 1 1/4");
 			var userAnswerThreeIf = prompt("If X * 10 = 100\nwhat is 'X'?");
 			var trueAnswerThreeIf = 10;
 				if(Number(userAnswerThreeIf) ===trueAnswerThreeIf){
@@ -46,7 +46,7 @@ if(Number(userAnswerOne) === trueAnswer){
 			alert("Well done!");
 			var userAnswerThreeIf = prompt("If X * 10 = 100\nwhat is 'X'?");
 			var trueAnswerThreeIf = 10;
-			if(userAnswerThreeIf === trueAnswerThreeIf){
+			if(Number(userAnswerThreeIf) === trueAnswerThreeIf){
 				alert("Not bad, you got two of three.");
 
 			}else{
@@ -60,7 +60,9 @@ if(Number(userAnswerOne) === trueAnswer){
 			var userAnswerThreeIf = prompt("If X * 10 = 100\nwhat is 'X'?");
 			var trueAnswerThreeIf = 10;
 			if(userAnswerThreeIf === trueAnswerThreeIf){
-				alert("That's correct, you finished strong with one out of three.")
+				alert("That's correct, you finished strong with one out of three.");
+			}else{
+				alert("Nope, the answer was " +trueAnswerThreeIf+ ". You missed every question.");
 			}
 
 		}
