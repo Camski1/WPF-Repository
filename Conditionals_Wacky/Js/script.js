@@ -23,7 +23,13 @@ if(userBooks === fiction){
 }else if(userBooks === nonfiction){
 	alert("Very cool I LOVE Nonfiction!");
 		var haveYouReadMeTalk = prompt("Have you read, Me Talk Pretty One Day?\nYes or No ");
-		
+		if(userBooks === nonfiction && haveYouReadMeTalk === "Yes"){
+			alert("That is so cool you seem super awesome.");
+
+		}else{
+			alert("It is really a great book. If you would like I can lend it to you.");
+
+		}
 
 }else{
 
