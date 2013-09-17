@@ -10,9 +10,12 @@ var fiction = "Fiction";
 var nonfiction = "Nonfiction";
 
 if(userBooks === fiction){
+	alert("Very cool I LOVE Fiction!");
+		var haveYouReadGalaxy = prompt("The Hitchhiker's Guide to the Galaxy?\nYes or No");
+		
 
-}else if(){
+}else if(userBooks === nonfiction){
 
 }else{
-	
+
 }
