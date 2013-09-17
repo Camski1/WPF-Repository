@@ -16,11 +16,11 @@ if(Number(userAnswerOne) === trueAnswer){
 		var trueAnswerTwoIf = "1 1/4";
 
 		if(userAnswerTwoIf===trueAnswerTwoIf){
-			alert("Well done!")
+			alert("Well done!");
 			var userAnswerThreeIf = prompt("If X * 10 = 100\nwhat is 'X'?");
 			var trueAnswerThreeIf = 10;
 			if(Number(userAnswerThreeIf) ===trueAnswerThreeIf){
-				alert("High Five you got all three!" )
+				alert("High Five you got all three!");
 			}else{
 				alert("Sorry missed the last one. The answer was " +trueAnswerThreeIf+ ", but you got two out of three!");
 			}
@@ -29,7 +29,7 @@ if(Number(userAnswerOne) === trueAnswer){
 			var userAnswerThreeIf = prompt("If X * 10 = 100\nwhat is 'X'?");
 			var trueAnswerThreeIf = 10;
 				if(Number(userAnswerThreeIf) ===trueAnswerThreeIf){
-				alert("Not bad, you got two of three.")
+				alert("Not bad, you got two of three.");
 				}else{
 				alert("Sorry missed the last one. The answer was " +trueAnswerThreeIf+ ", you got one out of three.");
 			
@@ -42,8 +42,17 @@ if(Number(userAnswerOne) === trueAnswer){
 	alert("Sorry, the correct answer is " +trueAnswer+ ". Lets try again.");
 		var userAnswerTwoIf = prompt("Find The Answer. \n1/2 + 3/4 = ?");
 		var trueAnswerTwoIf = "1 1/4";
-		if(){
-			
+		if(userAnswerTwoIf === trueAnswerTwoIf){
+			alert("Well done!");
+			var userAnswerThreeIf = prompt("If X * 10 = 100\nwhat is 'X'?");
+			var trueAnswerThreeIf = 10;
+			if(userAnswerThreeIf === trueAnswerThreeIf){
+				alert("Not bad, you got two of three.");
+
+			}else{
+
+			}
+
 
 		}else{
 
