@@ -12,3 +12,11 @@ var ppaBudget = budgetTot / (Number(empoyeeNum) + 1);
 var greatLunch = 20;
 var goodLunch = 10;
 
+if(){
+
+}else if(){
+
+}else{
+
+}
+
