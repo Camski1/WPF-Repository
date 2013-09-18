@@ -12,8 +12,8 @@ var ppaBudget = budgetTot / (Number(empoyeeNum) + 1); //PPA stands for per perso
 var greatLunch = prompt("Hom much money do you have to spend per person if are going to have a great lunch?"); //The var is holding what the user thinks will = a great lunch and the prompt is getting the info from the user.
 var goodLunch = prompt("Hom much money do you have to spend per person if are going to have a good lunch?"); //The var is holding what the user thinks will = a good lunch and the prompt is getting the info from the user.
 
-if(ppaBudget >= Number(greatLunch)){
-	alert("You have plenty to spend per person! You can spend $" +ppaBudget+ " per person.");
+if(ppaBudget >= Number(greatLunch)){//The is is finding if the budget = a great lunch or better. 
+	alert("You have plenty to spend per person! You can spend $" +ppaBudget+ " per person.");//the alert is giving the user a total and letting the user know they can have a great lunch.
 }else if(ppaBudget >= Number(goodLunch)){
 	alert("You can take a nice lunch. You have $" +ppaBudget+ " to spend per person.")
 }else{
