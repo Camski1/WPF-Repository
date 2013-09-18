@@ -14,8 +14,8 @@ var goodLunch = prompt("Hom much money do you have to spend per person if are go
 
 if(ppaBudget >= Number(greatLunch)){//The is is finding if the budget = a great lunch or better. 
 	alert("You have plenty to spend per person! You can spend $" +ppaBudget+ " per person.");//the alert is giving the user a total and letting the user know they can have a great lunch.
-}else if(ppaBudget >= Number(goodLunch)){
-	alert("You can take a nice lunch. You have $" +ppaBudget+ " to spend per person.")
+}else if(ppaBudget >= Number(goodLunch)){//The is is finding if the budget = a good lunch or better. 
+	alert("You can take a nice lunch. You have $" +ppaBudget+ " to spend per person.")//the alert is giving the user a total and letting the user know they can have a good lunch.
 }else{
 	alert("You will have to spend your money wisely. You have $" +ppaBudget+ " to spend per person.")
 	
