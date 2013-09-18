@@ -12,7 +12,7 @@ var ppaBudget = budgetTot / (Number(empoyeeNum) + 1);
 var greatLunch = 20;
 var goodLunch = 10;
 
-if(Number(ppaBudget) >= greatLunch){
+if(ppaBudget >= greatLunch){
 	alert("You gave plenty to spend per person! You can spend $" +ppaBudget+ " per person.");
 }else if(){
 	
