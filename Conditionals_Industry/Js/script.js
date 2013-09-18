@@ -6,5 +6,7 @@
 
 alert("This will help you find out how many workers you will need to finish a job!");
 
-var time = prompt("How many days do you have to complete your project?");
+var timeLine = prompt("How many days do you have to complete your project?");
+var hrsPerDay = prompt("How many hours per day do your employees work?");
+var daysPerWeek = prompt("How many days per week do your employees work?");
 
