@@ -11,7 +11,7 @@ var hrsPerDay = prompt("How many hours per day do your employees work?");
 var daysPerWeek = prompt("How many days per week do your employees work?");
 var extraHrsYesNo = prompt("Are you willing to add extra hours each day to get the job finished more quickly? Yes or No.")
 
-if(extraHrs === "Yes"){
+if(extraHrsYesNo === "Yes"){
 	var extraHrs = prompt("How many hours per day will you add?");
 
 }else{
