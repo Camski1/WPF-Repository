@@ -4,17 +4,17 @@
 
 //Employee Lunch
 
-alert("This page will help you find what you can spend on your employee's for lunch!");
+alert("This page will help you find what you can spend on your employee's for lunch!");//This alert is telling the user what the info they give is for.
 
-var budgetTot = prompt("What is your budget for lunch?");
-var empoyeeNum = prompt("How many employees will be going with you to lunch?");
-var ppaBudget = budgetTot / (Number(empoyeeNum) + 1); 
-var greatLunch = 20;
-var goodLunch = 10;
+var budgetTot = prompt("What is your budget for lunch?");//That var is going to hold the budget total, and the prompt is getting the info from the user.
+var empoyeeNum = prompt("How many employees will be going with you to lunch?");//The var is holding the number of employees going to lunch, and the prompt is getting the info from the user.
+var ppaBudget = budgetTot / (Number(empoyeeNum) + 1); //PPA stands for per person average and that is the var holding that info 
+var greatLunch = prompt("Hom much money do you have to spend per person if are going to have a great lunch?");
+var goodLunch = prompt("Hom much money do you have to spend per person if are going to have a good lunch?");
 
-if(ppaBudget >= greatLunch){
+if(ppaBudget >= Number(greatLunch)){
 	alert("You have plenty to spend per person! You can spend $" +ppaBudget+ " per person.");
-}else if(ppaBudget >= goodLunch){
+}else if(ppaBudget >= Number(goodLunch)){
 	alert("You can take a nice lunch. You have $" +ppaBudget+ " to spend per person.")
 }else{
 	alert("You will have to spend your money wisely. You have $" +ppaBudget+ " to spend per person.")
