@@ -14,8 +14,8 @@ var goodLunch = 10;
 
 if(ppaBudget >= greatLunch){
 	alert("You gave plenty to spend per person! You can spend $" +ppaBudget+ " per person.");
-}else if(){
-	
+}else if(ppaBudget >= goodLunch){
+	alert("You can take a nice lunch. You have $" +ppaBudget+ " per person.")
 }else{
 	
 }
