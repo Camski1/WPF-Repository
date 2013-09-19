@@ -38,12 +38,12 @@ if(userBooks === fiction){//The first if is for if the user picked fiction.
 		}
 
 }else{//This else is for if the user isnt a reader.
-	alert("I hate reading, it sucks being a computer. I have to read all the time.");
-	alert("We are so alike you and I.");
+	alert("I hate reading, it sucks being a computer. I have to read all the time.");//The alert is responding to the user.
+	alert("We are so alike you and I.");//The alert is responding to the user.
 
 }
 
-alert("You seem really cool and I feel so happy talking with you.");
+alert("You seem really cool and I feel so happy talking with you.");//This is a new alert for the user
 var userTalkingWithAI = prompt("Have you enjoyed talking with me?\nYes or No");
 
 var aI = (userTalkingWithAI === "Yes") ? "I really like you. Follow the white rabbit." : "I LOVE YOU, AND I WILL WAIT FOR YOU!";
