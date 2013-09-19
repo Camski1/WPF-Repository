@@ -21,14 +21,14 @@ if(userBooks === fiction){//The first if is for if the user picked fiction.
 		if(haveYouReadGalaxy === "Yes" && userBooks === fiction){//If the you user says yes and enjoys fiction the alert will happen.
 			alert("That is so cool you seem super awesome.");//The alert is responding to the user.
 
-		}else{
-			alert("It is really a great book. If you would like I can lend it to you.");
+		}else{//The else is giving the user a different alert.
+			alert("It is really a great book. If you would like I can lend it to you.");//This is the other alert for the user.
 
 		}
 
-}else if(userBooks === nonfiction){
-	alert("Very cool I LOVE Nonfiction!");
-		var haveYouReadMeTalk = prompt("Have you read, Me Talk Pretty One Day?\nYes or No ");
+}else if(userBooks === nonfiction){//The is for if the user picked nonfiction.
+	alert("Very cool I LOVE Nonfiction!");//The alert is responding to the selection.
+		var haveYouReadMeTalk = prompt("Have you read, Me Talk Pretty One Day?\nYes or No ");//the var is holding the users answer to if they have read Me Talk Pretty One Day.
 		if(userBooks === nonfiction && haveYouReadMeTalk === "Yes"){
 			alert("That is so cool you seem super awesome.");
 
