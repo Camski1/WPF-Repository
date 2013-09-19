@@ -15,11 +15,11 @@ var userBooks = prompt("Out of these styles of writting what is you favorite\nFi
 var fiction = "Fiction";//This var is holding the fiction style.
 var nonfiction = "Nonfiction";//This var is holding the nonfiction style. 
 
-if(userBooks === fiction){
-	alert("Very cool I LOVE Fiction!");
-		var haveYouReadGalaxy = prompt("Have you read, The Hitchhiker's Guide to the Galaxy?\nYes or No");
-		if(haveYouReadGalaxy === "Yes" && userBooks === fiction){
-			alert("That is so cool you seem super awesome.");
+if(userBooks === fiction){//The first if is for if the user picked fiction.
+	alert("Very cool I LOVE Fiction!");//This alert is responding to the users fiction pick.
+		var haveYouReadGalaxy = prompt("Have you read, The Hitchhiker's Guide to the Galaxy?\nYes or No");//the var is holding the users answer to if they have read The Hitchhiker's Guide to the Galaxy.
+		if(haveYouReadGalaxy === "Yes" && userBooks === fiction){//If the you user says yes and enjoys fiction the alert will happen.
+			alert("That is so cool you seem super awesome.");//The alert is responding to the user.
 
 		}else{
 			alert("It is really a great book. If you would like I can lend it to you.");
