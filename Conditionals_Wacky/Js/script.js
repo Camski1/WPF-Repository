@@ -5,6 +5,12 @@
 //Things get uncomfortable with AI
 
 alert("The information you add will paint a picture of you and your life.");
+
+var howManyBooks = prompt("How many books have you read?");
+(howManyBooks >= 10) ? alert("Very cool thats a good amount of books.") : alert("It can be hard to find time to read.");
+
+
+
 var userBooks = prompt("Out of these styles of writting what is you favorite\nFiction, Nonfiction or I don't read?");
 var fiction = "Fiction";
 var nonfiction = "Nonfiction";
