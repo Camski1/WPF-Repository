@@ -4,10 +4,10 @@
 
 //Things get uncomfortable with AI
 
-alert("The information you add will paint a picture of you and your life.");
+alert("The information you add will paint a picture of you and your life.");//This alert is telling the user what the info is for.
 
-var howManyBooks = prompt("How many books have you read?");
-(howManyBooks >= 10) ? alert("Very cool thats a good amount of books.") : alert("It can be hard to find time to read.");
+var howManyBooks = prompt("How many books have you read?");//The var is holding the information taken from the user on the number of book that have been read.
+(howManyBooks >= 10) ? alert("Very cool thats a good amount of books.") : alert("It can be hard to find time to read.");//Used aternary to alert the user depending on the number of books read.
 
 
 
