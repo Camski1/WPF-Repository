@@ -11,9 +11,9 @@ var howManyBooks = prompt("How many books have you read?");//The var is holding 
 
 
 
-var userBooks = prompt("Out of these styles of writting what is you favorite\nFiction, Nonfiction or I don't read?");
-var fiction = "Fiction";
-var nonfiction = "Nonfiction";
+var userBooks = prompt("Out of these styles of writting what is you favorite\nFiction, Nonfiction or I don't read?");//This var is holding the favorite books of the user taken from the prompt.
+var fiction = "Fiction";//This var is holding the fiction style.
+var nonfiction = "Nonfiction";//This var is holding the nonfiction style. 
 
 if(userBooks === fiction){
 	alert("Very cool I LOVE Fiction!");
