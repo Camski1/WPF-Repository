@@ -7,7 +7,7 @@
 alert("The information you add will paint a picture of you and your life.");//This alert is telling the user what the info is for.
 
 var howManyBooks = prompt("How many books have you read?");//The var is holding the information taken from the user on the number of book that have been read.
-(howManyBooks >= 10) ? alert("Very cool thats a good amount of books.") : alert("It can be hard to find time to read.");//Used aternary to alert the user depending on the number of books read.
+(howManyBooks >= 10) ? alert("Very cool thats a good amount of books.") : alert("It can be hard to find time to read.");//Used a ternary to alert the user depending on the number of books read.
 
 
 
@@ -44,7 +44,7 @@ if(userBooks === fiction){//The first if is for if the user picked fiction.
 }
 
 alert("You seem really cool and I feel so happy talking with you.");//This is a new alert for the user
-var userTalkingWithAI = prompt("Have you enjoyed talking with me?\nYes or No");
+var userTalkingWithAI = prompt("Have you enjoyed talking with me?\nYes or No");//this var is holding the information taken from the user.
 
-var aI = (userTalkingWithAI === "Yes") ? "I really like you. Follow the white rabbit." : "I LOVE YOU, AND I WILL WAIT FOR YOU!";
-alert(aI);
+var aI = (userTalkingWithAI === "Yes") ? "I really like you. Follow the white rabbit." : "I LOVE YOU, AND I WILL WAIT FOR YOU!";//Used a ternary to alert the user depending on the number of books read.
+alert(aI);//This is an alert for the user.
