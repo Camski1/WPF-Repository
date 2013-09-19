@@ -32,12 +32,12 @@ if(userBooks === fiction){//The first if is for if the user picked fiction.
 		if(userBooks === nonfiction && haveYouReadMeTalk === "Yes"){//If the you user says yes and enjoys nonfiction the alert will happen.
 			alert("That is so cool you seem super awesome.");//This is the alert responding to the user.
 
-		}else{
-			alert("It is really a great book. If you would like I can lend it to you.");
+		}else{//The else is giving the user a different alert.
+			alert("It is really a great book. If you would like I can lend it to you.");//This is the other alert for the user.
 
 		}
 
-}else{
+}else{//This else is for if the user isnt a reader.
 	alert("I hate reading, it sucks being a computer. I have to read all the time.");
 	alert("We are so alike you and I.");
 
