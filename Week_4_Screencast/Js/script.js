@@ -23,5 +23,37 @@ do{
 for(var i = 10; i > 0; i--){
 	console.log(i + " kegs on the wall.");
 }
+
+
+//basic function
+
+function outptMsg(){
+	console.log("Hello World");
+
+}
+
+var width = 5;
+
+function calcArea(){
+	var width = 20;
+	var height = 30;
+	var area = width * height;
+	console.log(area);
+}
+
+console.log(width);
+calcArea();
+
+
+function dogYears(age){
+	var dogYears = age * 7;
+	console.log("Spaky is " +dogYears+ " years old.");
+}
+dogYears(4);
+dogYears(5);
+
 */
+//returning val
+
+
 
