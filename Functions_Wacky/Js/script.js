@@ -21,3 +21,5 @@ var userWaterWeight = function(oldW, newW, percent){
 
 var maleWaterW = userWaterWeight(preHolidayLb,curWeight,malePercent);
 var feWaterW = userWaterWeight(preHolidayLb, curWeight, fePercent);
+var underOneW = userWaterWeight(preHolidayLb, curWeight, underOne);
+
