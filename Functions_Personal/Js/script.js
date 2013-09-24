@@ -23,3 +23,6 @@ alert("Now lets find what the paint will cost.");
 
 var paintBugdet = prompt("What is the budget you have for paint?");
 var costPerGal = prompt("What is the price of your paint per gallon?");
+function costForPaint(){
+	
+}
