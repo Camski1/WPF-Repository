@@ -23,3 +23,11 @@ var maleWaterW = userWaterWeight(preHolidayLb,curWeight,malePercent);
 var feWaterW = userWaterWeight(preHolidayLb, curWeight, fePercent);
 var underOneW = userWaterWeight(preHolidayLb, curWeight, underOne);
 
+if(maleOrFe === "Boy" && Number(userAge) <= 2){
+	alert("You will be happy to know that humans need water to live and you have added an extra " +maleWaterW+ " pounds of water to your body this holiday season!")
+
+}else if(){
+
+}else{
+
+}
