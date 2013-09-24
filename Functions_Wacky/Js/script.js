@@ -12,5 +12,6 @@ var maleOrFe = prompt("Are you a Boy or Girl?");
 var userAge = prompt("How old are you?");
 
 var userWaterWeight = function(){
-	
+	var waterWeight = oldW + newW - oldW / percent;
+	return waterWeight;
 }
