@@ -14,19 +14,20 @@ var malePercent = .65;
 var fePercent = .55;
 var underOne = .75;
 
-var userWaterWeight = function(oldW, newW, percent){
-	var waterWeight = oldW + newW - oldW / percent;
+
+var userWaterWeight = function(newW, oldW, percent){
+	var waterWeight = (newW - oldW) * percent;
 	return waterWeight;
 }
 
-var maleWaterW = userWaterWeight(preHolidayLb,curWeight,malePercent);
-var feWaterW = userWaterWeight(preHolidayLb, curWeight, fePercent);
-var underOneW = userWaterWeight(preHolidayLb, curWeight, underOne);
+var maleWaterW = userWaterWeight(curWeight, preHolidayLb, malePercent);
+var feWaterW = userWaterWeight(curWeight, preHolidayLb, fePercent);
+var underOneW = userWaterWeight(curWeight, preHolidayLb, underOne);
 
-if(maleOrFe === "Boy" && Number(userAge) <= 2){
+if(maleOrFe === "Boy" && Number(userAge) >= 2){
 	alert("You will be happy to know that humans need water to live and you have added an extra " +maleWaterW+ " pounds of water to your body this holiday season!");
 
-}else if(maleOrFe === "Girl" && Number(userAge) <= 2){
+}else if(maleOrFe === "Girl" && Number(userAge) >= 2){
 	alert("You will be happy to know that humans need water to live and you have added an extra " +feWaterW+ " pounds of water to your body this holiday season!");
 
 }else{
