@@ -31,5 +31,5 @@ if(maleOrFe === "Boy" && Number(userAge) >= 2){
 	alert("You will be happy to know that humans need water to live and you have added an extra " +feWaterW+ " pounds of water to your body this holiday season!");
 
 }else{
-	alert("What you are a baby you don't need to think about this stuff, but you did added an extra " +underOneW+ " pounds of water to your body this holiday season!");
+	alert("What? You are a baby you don't need to think about this stuff, but you did added an extra " +underOneW+ " pounds of water to your body this holiday season!");
 }
