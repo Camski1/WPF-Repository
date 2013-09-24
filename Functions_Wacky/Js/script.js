@@ -27,7 +27,7 @@ if(maleOrFe === "Boy" && Number(userAge) <= 2){
 	alert("You will be happy to know that humans need water to live and you have added an extra " +maleWaterW+ " pounds of water to your body this holiday season!")
 
 }else if(maleOrFe === "Girl" && Number(userAge) <= 2){
-	
+	alert("You will be happy to know that humans need water to live and you have added an extra " +feWaterW+ " pounds of water to your body this holiday season!")
 
 }else{
 
