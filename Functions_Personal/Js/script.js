@@ -28,3 +28,11 @@ function costForPaint(cpg, pyn){
 	var paintTotal = cpg * pyn;
 	return paintTotal;
 }
+
+var paintTotal = costForPaint(costPerGal,paintYouNeed);
+
+if(){
+
+}else{
+
+}
