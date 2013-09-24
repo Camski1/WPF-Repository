@@ -16,3 +16,6 @@ var paintOnTheWall = function(height, width, coats, galOP, sqrFt){
 	return gallOfPaint;
 }
 
+var paintYouNeed = paintOnTheWall(wallHeight, wallWidth, numCoats, howMuchPDoYouGot, sqrFtPaintCover);
+alert("It looks like you need " +paintYouNeed+ " gallons of paint.");
+
