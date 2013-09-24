@@ -9,3 +9,8 @@ alert("This page will add a new spin to added holiday pounds.");
 var preHolidayLb = prompt("What did you weigh before the holidays?");
 var curWeight = prompt("And what the you weigh now?");
 var maleOrFe = prompt("Are you a Boy or Girl?");
+var userAge = prompt("How old are you?");
+
+var userWaterWeight = function(){
+	
+}
