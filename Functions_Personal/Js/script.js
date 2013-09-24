@@ -11,6 +11,8 @@ var numCoats = prompt("How many coats of paint will you need?");
 var howMuchPDoYouGot = prompt("How many gallons of paint do you have?");
 var sqrFtPaintCover = prompt("How many square feet will a gallon of paint cover?");
 
-var paintOnTheWall = function(){
-	var 
+var paintOnTheWall = function(height, width, coats, galOP, sqrFt){
+	var gallOfPaint = (height * width * coats - galOP * sqrFt) / sqrFt;
+	return gallOfPaint;
 }
+
