@@ -31,8 +31,6 @@ function costForPaint(cpg, pyn){
 
 var paintTotal = costForPaint(costPerGal,paintYouNeed);
 
-if(){
+var total = (paintTotal <= paintBugdet) ? "You can get the pait the total was only $" +paintTotal+"" : "Sorry the paint is more then your budget of $" +paintBugdet+ " it is $" +paintTotal+"";
 
-}else{
-
-}
+alert(total);
