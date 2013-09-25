@@ -15,7 +15,7 @@ var yearsAfter = 3;
 
 var vacationDays = function(extraYears, yearsAfter, roleOverDays, yearOne){
 	var numOfDays = extraYears * yearsAfter + roleOverDays + yearOne;
-
+	return numOfDays;
 }
 
 
