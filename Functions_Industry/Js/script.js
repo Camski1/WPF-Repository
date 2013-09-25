@@ -18,4 +18,5 @@ var vacationDays = function(extraYears, yearsAfter, roleOverDays, yearOne){
 	return numOfDays;
 }
 
+var finishedAnswer = vacationDays(Number(extraYears), yearsAfter, Number(roleOverDays), yearOne);
 
