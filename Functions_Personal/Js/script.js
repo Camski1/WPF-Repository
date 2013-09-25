@@ -22,9 +22,9 @@ alert("It looks like you need " +paintYouNeed+ " gallons of paint.");//This aler
 alert("Now lets find what the paint will cost.");//This alert is telling the user that we will be finding the cost of the paint.
 
 var paintBugdet = prompt("What is the budget you have for paint?");//This var is holding info taken from the prompt.
-var costPerGal = prompt("What is the price of your paint per gallon?");
+var costPerGal = prompt("What is the price of your paint per gallon?");//This var is holding info taken from the prompt.
 
-function costForPaint(cpg, pyn){
+function costForPaint(cpg, pyn){//this is a normal function. the items in the brackets are the things that will need to be given a value later.
 	var paintTotal = cpg * pyn;
 	return paintTotal;
 }
