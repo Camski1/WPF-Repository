@@ -25,12 +25,12 @@ var paintBugdet = prompt("What is the budget you have for paint?");//This var is
 var costPerGal = prompt("What is the price of your paint per gallon?");//This var is holding info taken from the prompt.
 
 function costForPaint(cpg, pyn){//this is a normal function. the items in the brackets are the things that will need to be given a value later.
-	var paintTotal = cpg * pyn;
-	return paintTotal;
+	var paintTotal = cpg * pyn;//this var is holding the total cost of the needed paint.
+	return paintTotal;//The return is pushing out the total cost of needed paint.
 }
 
-var paintTotal = costForPaint(costPerGal,paintYouNeed);
+var paintTotal = costForPaint(costPerGal,paintYouNeed);//this var is now holding the function info. The items in the brackets are giving the function value
 
-var total = (paintTotal <= paintBugdet) ? "You can get the paint the total was only $" +paintTotal+"!" : "Sorry the paint is more then your budget of $" +paintBugdet+ " it is $" +paintTotal+".";
+var total = (paintTotal <= paintBugdet) ? "You can get the paint the total was only $" +paintTotal+"!" : "Sorry the paint is more then your budget of $" +paintBugdet+ " it is $" +paintTotal+".";//this ternary is finding if the user has the budget for the paint. 
 
-alert(total);
+alert(total);//This alert is giving the info taken from the ternary via the function to the user.
