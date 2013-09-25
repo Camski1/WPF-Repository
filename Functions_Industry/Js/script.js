@@ -20,3 +20,4 @@ var vacationDays = function(extraYears, yearsAfter, roleOverDays, yearOne){
 
 var finishedAnswer = vacationDays(Number(extraYears), yearsAfter, Number(roleOverDays), yearOne);
 
+alert("You should be happy to know that you have " +finishedAnswer+ " days of vacation this year!");
