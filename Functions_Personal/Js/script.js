@@ -11,9 +11,9 @@ var numCoats = prompt("How many coats of paint will you need?");//This var is ho
 var howMuchPDoYouGot = prompt("How many gallons of paint do you have?");//This var is holding info taken from the propmt about the amount of paint the user already has.
 var sqrFtPaintCover = prompt("How many square feet will a gallon of paint cover?");//This var holding info taken from the prompt as to how many square feet the paint can cover.
 
-var paintOnTheWall = function(height, width, coats, galOP, sqrFt){
-	var gallOfPaint = (height * width * coats - galOP * sqrFt) / sqrFt;
-	return gallOfPaint;
+var paintOnTheWall = function(height, width, coats, galOP, sqrFt){//This var is holding the function. inside of the brackets are the value parameters of the function.
+	var gallOfPaint = (height * width * coats - galOP * sqrFt) / sqrFt;//This var is holding the math of the function. The answer put out will be the amount of paint the user will need to buy
+	return gallOfPaint;// The return in pushing out the information from the var in the function.
 }
 
 var paintYouNeed = paintOnTheWall(wallHeight, wallWidth, numCoats, howMuchPDoYouGot, sqrFtPaintCover);
