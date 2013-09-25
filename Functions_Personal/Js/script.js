@@ -19,9 +19,9 @@ var paintOnTheWall = function(height, width, coats, galOP, sqrFt){//This var is 
 var paintYouNeed = paintOnTheWall(wallHeight, wallWidth, numCoats, howMuchPDoYouGot, sqrFtPaintCover);//This var in now holding the info taken from the function. The info in the brackets is giving the values to the math of the function.
 alert("It looks like you need " +paintYouNeed+ " gallons of paint.");//This alert is telling the user the number of gallons to buy.
 
-alert("Now lets find what the paint will cost.");
+alert("Now lets find what the paint will cost.");//This alert is telling the user that we will be finding the cost of the paint.
 
-var paintBugdet = prompt("What is the budget you have for paint?");
+var paintBugdet = prompt("What is the budget you have for paint?");//This var is holding info taken from the prompt.
 var costPerGal = prompt("What is the price of your paint per gallon?");
 
 function costForPaint(cpg, pyn){
