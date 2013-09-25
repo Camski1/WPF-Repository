@@ -5,3 +5,5 @@
 //Vacation Days
 
 alert("This page will help you find the number of Vacation Days you have this year. On your first year you get 7 day. After that you get 3 extra days for each year of work!");
+
+var numOfYears = prompt("How many years have you been with the company?");
