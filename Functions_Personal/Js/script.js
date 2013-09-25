@@ -8,8 +8,8 @@ alert("This will help you find the amount of paint you will need.");//This alert
 var wallHeight = prompt("What is the height of the wall you be painting?");//This var is holding information taken from the prompt about the height of the wall that wiil be painted.
 var wallWidth = prompt("What is the width of the wall you will be painting?");//This var is holding information taken from the prompt about the width of the wall.
 var numCoats = prompt("How many coats of paint will you need?");//This var is holding info taken from the prompt about number of coats of paint.
-var howMuchPDoYouGot = prompt("How many gallons of paint do you have?");
-var sqrFtPaintCover = prompt("How many square feet will a gallon of paint cover?");
+var howMuchPDoYouGot = prompt("How many gallons of paint do you have?");//This var is holding info taken from the propmt about the amount of paint the user already has.
+var sqrFtPaintCover = prompt("How many square feet will a gallon of paint cover?");//This var holding info taken from the prompt as to how many square feet the paint can cover.
 
 var paintOnTheWall = function(height, width, coats, galOP, sqrFt){
 	var gallOfPaint = (height * width * coats - galOP * sqrFt) / sqrFt;
