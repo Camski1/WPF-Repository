@@ -4,8 +4,8 @@
 
 //Paint Party 
 
-alert("This will help you find the amount of paint you will need.");
-var wallHeight = prompt("What is the height of the wall you be painting?");
+alert("This will help you find the amount of paint you will need.");//This alert is informing the user of what the page will be for
+var wallHeight = prompt("What is the height of the wall you be painting?");//This var is holding information taken from the prompt about the height of the wall that wiil be painted.
 var wallWidth = prompt("What is the width of the wall you will be painting?");
 var numCoats = prompt("How many coats of paint will you need?");
 var howMuchPDoYouGot = prompt("How many gallons of paint do you have?");
@@ -31,6 +31,6 @@ function costForPaint(cpg, pyn){
 
 var paintTotal = costForPaint(costPerGal,paintYouNeed);
 
-var total = (paintTotal <= paintBugdet) ? "You can get the pait the total was only $" +paintTotal+"!" : "Sorry the paint is more then your budget of $" +paintBugdet+ " it is $" +paintTotal+".";
+var total = (paintTotal <= paintBugdet) ? "You can get the paint the total was only $" +paintTotal+"!" : "Sorry the paint is more then your budget of $" +paintBugdet+ " it is $" +paintTotal+".";
 
 alert(total);
