@@ -16,8 +16,8 @@ var paintOnTheWall = function(height, width, coats, galOP, sqrFt){//This var is 
 	return gallOfPaint;// The return in pushing out the information from the var in the function.
 }
 
-var paintYouNeed = paintOnTheWall(wallHeight, wallWidth, numCoats, howMuchPDoYouGot, sqrFtPaintCover);
-alert("It looks like you need " +paintYouNeed+ " gallons of paint.");
+var paintYouNeed = paintOnTheWall(wallHeight, wallWidth, numCoats, howMuchPDoYouGot, sqrFtPaintCover);//This var in now holding the info taken from the function. The info in the brackets is giving the values to the math of the function.
+alert("It looks like you need " +paintYouNeed+ " gallons of paint.");//This alert is telling the user the number of gallons to buy.
 
 alert("Now lets find what the paint will cost.");
 
