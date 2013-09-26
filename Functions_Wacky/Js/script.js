@@ -15,9 +15,9 @@ var fePercent = .55;//This var is holding the average water% for girls.
 var underOne = .75;//This var is holding the average water% for children under the age of one
 
 
-var userWaterWeight = function(newW, oldW, percent){
-	var waterWeight = (newW - oldW) * percent;
-	return waterWeight;
+var userWaterWeight = function(newW, oldW, percent){//This var is holding the function the thing in the bracket will need to be given value
+	var waterWeight = (newW - oldW) * percent;//This var is finding the added weight of the user then * it be the %
+	return waterWeight;//The return is pushing out the information taken from the function
 }
 
 var maleWaterW = userWaterWeight(curWeight, preHolidayLb, malePercent);
