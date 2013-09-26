@@ -30,6 +30,6 @@ if(maleOrFe === "Boy" && Number(userAge) >= 2){//This if is finding the sex of t
 }else if(maleOrFe === "Girl" && Number(userAge) >= 2){//This if is finding the sex of the user and finding the age of the user
 	alert("You will be happy to know that humans need water to live and you have added an extra " +feWaterW+ " pounds of water to your body this holiday season!");//This alert is giving the information taken from the function for girls
 
-}else{
-	alert("What? You are a baby you don't need to think about this stuff, but you did added an extra " +underOneW+ " pounds of water to your body this holiday season!");
+}else{//The else if for people under the age of one
+	alert("What? You are a baby you don't need to think about this stuff, but you did added an extra " +underOneW+ " pounds of water to your body this holiday season!");//This alert is giving the information taken from the function for people under the age of one
 }
