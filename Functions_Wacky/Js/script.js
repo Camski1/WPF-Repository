@@ -20,9 +20,9 @@ var userWaterWeight = function(newW, oldW, percent){//This var is holding the fu
 	return waterWeight;//The return is pushing out the information taken from the function
 }
 
-var maleWaterW = userWaterWeight(curWeight, preHolidayLb, malePercent);
-var feWaterW = userWaterWeight(curWeight, preHolidayLb, fePercent);
-var underOneW = userWaterWeight(curWeight, preHolidayLb, underOne);
+var maleWaterW = userWaterWeight(curWeight, preHolidayLb, malePercent);//This var is holding the information taken from the function with the male information in the brackets
+var feWaterW = userWaterWeight(curWeight, preHolidayLb, fePercent);//This var is holding the information taken from the function with the female information in the brackets
+var underOneW = userWaterWeight(curWeight, preHolidayLb, underOne);//This var is holding the information taken from the function with the under one information in the brackets
 
 if(maleOrFe === "Boy" && Number(userAge) >= 2){
 	alert("You will be happy to know that humans need water to live and you have added an extra " +maleWaterW+ " pounds of water to your body this holiday season!");
