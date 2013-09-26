@@ -4,7 +4,7 @@
 
 //A new spin on holiday pounds.
 
-alert("This page will add a new spin to added holiday pounds.");
+alert("This page will add a new spin to added holiday pounds.");//This alert is informing the user of what the page is for.
 
 var preHolidayLb = prompt("What did you weigh before the holidays?");
 var curWeight = prompt("And what the you weigh now?");
