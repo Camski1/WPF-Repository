@@ -24,11 +24,11 @@ var maleWaterW = userWaterWeight(curWeight, preHolidayLb, malePercent);//This va
 var feWaterW = userWaterWeight(curWeight, preHolidayLb, fePercent);//This var is holding the information taken from the function with the female information in the brackets
 var underOneW = userWaterWeight(curWeight, preHolidayLb, underOne);//This var is holding the information taken from the function with the under one information in the brackets
 
-if(maleOrFe === "Boy" && Number(userAge) >= 2){
-	alert("You will be happy to know that humans need water to live and you have added an extra " +maleWaterW+ " pounds of water to your body this holiday season!");
+if(maleOrFe === "Boy" && Number(userAge) >= 2){//This if is finding the sex of the user and finding the age of the user
+	alert("You will be happy to know that humans need water to live and you have added an extra " +maleWaterW+ " pounds of water to your body this holiday season!");//This alert is giving the information taken from the function for guys
 
-}else if(maleOrFe === "Girl" && Number(userAge) >= 2){
-	alert("You will be happy to know that humans need water to live and you have added an extra " +feWaterW+ " pounds of water to your body this holiday season!");
+}else if(maleOrFe === "Girl" && Number(userAge) >= 2){//This if is finding the sex of the user and finding the age of the user
+	alert("You will be happy to know that humans need water to live and you have added an extra " +feWaterW+ " pounds of water to your body this holiday season!");//This alert is giving the information taken from the function for girls
 
 }else{
 	alert("What? You are a baby you don't need to think about this stuff, but you did added an extra " +underOneW+ " pounds of water to your body this holiday season!");
