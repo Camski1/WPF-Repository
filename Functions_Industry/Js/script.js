@@ -3,7 +3,7 @@
 //Functions_Industry
 
 //Vacation Days
-
+//The two alerts are informing the user of how to use the page
 alert("This page will help you find the number of Vacation Days you have this year. On your first year you get 7 day. After that you get 3 extra days for each year of work!");
 alert("If you don't use the vacation time you can role it over to the next year, but if the time is not used the following year that time will be lost. ")
 
