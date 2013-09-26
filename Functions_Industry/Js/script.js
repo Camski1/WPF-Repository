@@ -14,8 +14,8 @@ var extraYears = numOfYears - 1;//This var is holding the years of work past the
 var yearsAfter = 3;//This var has a value of three for use in the function
 
 var vacationDays = function(extraYears, yearsAfter, roleOverDays, yearOne){//This var is holding the function. The things in the bracets are what need declared value.
-	var numOfDays = extraYears * yearsAfter + roleOverDays + yearOne;
-	return numOfDays;
+	var numOfDays = extraYears * yearsAfter + roleOverDays + yearOne;//This var is joding the number of vacation days the user has this year. 
+	return numOfDays;//The return is pushing out the number of days off the user has this year
 }
 
 var finishedAnswer = vacationDays(Number(extraYears), yearsAfter, Number(roleOverDays), yearOne);
