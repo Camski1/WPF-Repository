@@ -18,6 +18,6 @@ var vacationDays = function(extraYears, yearsAfter, roleOverDays, yearOne){//Thi
 	return numOfDays;//The return is pushing out the number of days off the user has this year
 }
 
-var finishedAnswer = vacationDays(Number(extraYears), yearsAfter, Number(roleOverDays), yearOne);
+var finishedAnswer = vacationDays(Number(extraYears), yearsAfter, Number(roleOverDays), yearOne);//This var is now holding the information taken from the function. The var names in the brackets are giving the function value.
 
-alert("You should be happy to know that you have " +finishedAnswer+ " days of vacation this year!");
+alert("You should be happy to know that you have " +finishedAnswer+ " days of vacation this year!");//The alert is giving the information taken from the function to the user. 
