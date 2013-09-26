@@ -10,9 +10,9 @@ var preHolidayLb = prompt("What did you weigh before the holidays?");//This var 
 var curWeight = prompt("And what the you weigh now?");//this var is holding the users current weight. the prompt is taking the info from the user.
 var maleOrFe = prompt("Are you a Boy or Girl?");//This var is holding the sex of the user. Tis info is needed because the % of water in the human body is not the same in guys and gals
 var userAge = prompt("How old are you?");//This var is holding the age of the user this info is needed because infants have more water in the body then adults
-var malePercent = .65;
-var fePercent = .55;
-var underOne = .75;
+var malePercent = .65;//This var is holding the average water% for guys
+var fePercent = .55;//This var is holding the average water% for girls.
+var underOne = .75;//This var is holding the average water% for children under the age of one
 
 
 var userWaterWeight = function(newW, oldW, percent){
