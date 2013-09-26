@@ -9,9 +9,9 @@ alert("If you don't use the vacation time you can role it over to the next year,
 
 var numOfYears = prompt("How many years have you been with the company?");//This var is holding the number of years the user has been with the company
 var roleOverDays = prompt("How many vacation days do you have left from last year?");//This var is holding the number of role over day the user has from last year. The information is taken withe the prompt
-var yearOne = 7;
-var extraYears = numOfYears - 1;
-var yearsAfter = 3;
+var yearOne = 7;//This var has a value of seven. This is for the first year with the company
+var extraYears = numOfYears - 1;//This var is holding the years of work past the first year. This is found by subtracting one from  the number of year of work.
+var yearsAfter = 3;//This var has a value of three for use in the function
 
 var vacationDays = function(extraYears, yearsAfter, roleOverDays, yearOne){
 	var numOfDays = extraYears * yearsAfter + roleOverDays + yearOne;
