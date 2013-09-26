@@ -13,7 +13,7 @@ var yearOne = 7;//This var has a value of seven. This is for the first year with
 var extraYears = numOfYears - 1;//This var is holding the years of work past the first year. This is found by subtracting one from  the number of year of work.
 var yearsAfter = 3;//This var has a value of three for use in the function
 
-var vacationDays = function(extraYears, yearsAfter, roleOverDays, yearOne){
+var vacationDays = function(extraYears, yearsAfter, roleOverDays, yearOne){//This var is holding the function. The things in the bracets are what need declared value.
 	var numOfDays = extraYears * yearsAfter + roleOverDays + yearOne;
 	return numOfDays;
 }
